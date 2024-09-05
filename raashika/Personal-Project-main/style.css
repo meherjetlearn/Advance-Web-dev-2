@@ -1,0 +1,91 @@
+.nav-item{
+    color: white;
+    margin: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar{
+    background: cornflowerblue;
+    
+}
+
+.navbar-nav{
+    margin-left: 40%;
+}
+
+p{
+    color: black;
+}
+
+.dropdown-menu {
+    width: 20px;
+    background-color: brown;
+
+}
+
+.dropdown {
+    margin-top: 10px;
+    font-family: 'Playfair Display', serif;
+}
+/*add this for hover*/
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    
+  }
+
+  .dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+
+
+#ppbackground{
+    position: absolute;
+    top: 20%;
+
+    border: 2px solid grey;
+    width: 800px;
+    margin-left: 10px;
+    margin-right: 10px;
+    z-index: 200; /* brings to front/ moves to back */
+    background-color: grey;
+    opacity: 60%;
+
+}
+
+.slideimg{
+    width: 80%;
+    height: 650px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+#pptitle{
+    font-size: 60px;
+
+}
+
+a:link {
+    /* unvisited link */
+    color: white;
+  }
+  
+
+  /* mouse over link */
+  a:hover {
+    color: rgb(249, 244, 244);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 255, 255);
+  }
+
+.dropdown-item{
+    background-color: rgb(63, 63, 63);
+
+}
+#dropdownMenuLink{
+    color: white;
+}

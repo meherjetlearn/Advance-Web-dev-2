@@ -1,0 +1,23 @@
+
+@import "./variables";
+@mixin align1($bgcolor,$align){
+    background-color: $bgcolor;
+    text-align:  right;
+
+}
+.button {
+    padding: 15px;
+    background-color: $button-color;
+    border: none;
+    color: $textcolor;
+    text-decoration: none;
+    display: $display_ib;
+    font-size: 14px;
+    border-radius: 5px;
+    &:hover{
+      background-color:rgba(251, 122, 2, 0.912);
+    }
+  }
+  .b2{
+   @include align1(blue, right );
+  }
